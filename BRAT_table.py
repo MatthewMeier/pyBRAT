@@ -51,7 +51,6 @@ def main(
     #arcpy.env.workspace = scratch
     arcpy.env.overwriteOutput = True
     arcpy.CheckOutExtension("Spatial")
-    arcpy.AddMessage("Hey")
 
     # --check input projections--
     validate_inputs(seg_network, road, railroad, canal, is_verbose)
